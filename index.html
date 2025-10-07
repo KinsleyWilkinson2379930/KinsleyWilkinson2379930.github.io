@@ -1,117 +1,49 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Kinsleys Website</title>
-  </head>
-  
-  <body>
-    <!--Visible HTML elements GO HERE -->
-  </body>
-</html>
+<head>
+   <title>Kinsleys Website</title>
+   <link rel="stylesheet" href="style.css">
+</head>
 <body>
+  <!--Visible HTML elements GO HERE-->
+  
   <!-- All content goes here -->
-  <div>
-        <nava>
-      
-        </nava>
-    
-        <main>
-      
-        </main>
-    </div>
-
-  
-  <!--Sidbar section-->
-  <div>
-    
-  </div>
-  
-  <!--Content section-->
-  <div>
-    <h2> Kinsley </h2>
-    <p> Student at David Thibodaux </p>
-    <!-- Intrest section--> 
-    <div>
-        <h3> Interests section -->
-        <ul>
-          <li>Thing</li>
-          <li>Thing 2</li>
-          <li>thing 3</li>
+  <div id="all-contents">
+    <nav>
+      <h1> Kinsley </h1>
+      <ul id="nav-ul">
+        <li class="nav-li">
+          <a href="index.html">Home</a>
+        </li>
+        <li class="nav-li">
+          <a href="portfolio.html">Portfolio</a>
+        </li>
       </ul>
- </div>    
-</div> 
-
-
-
-
-
-
-
-
-
-   body {
-       background: rgb(125, 198, 205);
-       color: rgb(45, 45, 45);
-       padding: 10px;
-       font-family: arial;
-   }
-   #all-contents {
-     max-width: 800px;
-       margin: auto;
-   }
-
-   /* navigation menu */
-   nav {
-       background: rgb(239, 80, 41);
-      margin: 0 auto;
-       display: flex;
-       padding: 10px;
-   }
-   h1 {
-       display: flex;
-       align-items: center;
-       color: white;
-       flex: 1;
-       margin: 0;
-   }
-   #nav-ul {
-       list-style-image: none;
-   }
-   .nav-li {
-       display: inline-block;
-       padding: 0 10px;
-   }
-   a {
-       text-decoration: none;
-       color: #fff;
-   }
-
-   /* main container area beneath menu */
-   main {
-       background: rgb(245, 238, 219);
-       display: flex;
-   }
-   .sidebar {
-       margin-right: 25px;
-       padding: 10px;
-   }
-   .sidebar-img {
-       width: 200px;
-   }
-   .content {
-       flex: 1;
-       padding: 15px;
-   }
-
-   /* portfolio styles */
-   #interests {
-       border: 4px silver ridge;
-       padding: 8px;
-   }
-   h2, h3 {
-       margin: 0px;
-   }
-
-
+    </nav>
+    <main>
+      <!-- Sidebar section -->
+      <div class="sidebar">
+        <img class="sidebar-img" src="https://ci3.googleusercontent.com/meips/ADKq_NZRjmctA5c2nVAHV6xji-J4hVR_T49gYw64jiq5erftOGdD3bD3lPMfSwVva5L3qRkBdd25nsebgG-av5G_ecWPwXMIK_WlFLCKTCW24wvWZf1oLeirrwima1YACpDh7Ehyb8_2jFO55hvrf_Ns9n5vVvUK6glqBi2vETTl0nXd7_g4QC1O8QA=s0-d-e1-ft#https://s3.amazonaws.com/iq-marketing/692R79R/subjectimages/1108050397/800/primary-p3ybrs1rh8.png?ts=1759438875090">
+      </div>
+      
+      <!-- Content section -->
+      <div class="content">
+        <h2> Kinsley</h2>
+        <p> Student at David Thibodaux</p>
+        
+        <!-- Interests section -->
+        <div id="interests">
+          <h3>Interests</h3>
+          <ul>
+            <li>Volleyball</li>
+            <li>Legos</li>
+            <li>Track</li>
+          </ul>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
 
 
