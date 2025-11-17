@@ -38,13 +38,13 @@ createPlatform(350,389,20, 15)
 
     // TODO 3 - Create Collectables
 
-createCollectables("grace",500, 545)
-createCollectables("diamond",290, 665)
-   createCollectables("max",338, 770) 
+createCollectable("grace",533, 333)
+createCollectable("diamond",500, 665)
+createCollectable('max',150,288) 
     // TODO 4 - Create Cannons
 createCannon('bottom',400,1000)
-createCannon('top',330,1000)
-createCannon('right',800,1000)    
+createCannon('top',200,1000)
+createCannon('right',300,1000)    
     
     //////////////////////////////////
     // ONLY CHANGE ABOVE THIS POINT //
